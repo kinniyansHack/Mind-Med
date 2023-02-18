@@ -1,7 +1,11 @@
+import Landing from "./pages/Landing";
+
+
 function App() {
   return (
     <div className="App">
-      <h1>Mind - Med </h1>
+      {/* <h1>Mind - Med </h1> */}
+      <Landing />
     </div>
   );
 }
