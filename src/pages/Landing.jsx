@@ -9,6 +9,8 @@ import newsLetter from "../newsLetter";
 import Typography from '@mui/material/Typography';
 import { Box, Container } from "@mui/system";
 import NewsLetter from "../components/NewsLetter";
+import BottomContent from "../components/BottomContent";
+import Footer from "../components/Footer";
 
 function Landing() {
     return (
@@ -30,12 +32,15 @@ function Landing() {
       <Container>
       <Typography variant="h4" align="center" color={'green'} mt={'1rem'}>Durdans Newsletter</Typography>
       <Typography align="center">Checkout for the latest news from Durdans Hospital</Typography>
-    <Box style={{display:'grid',gridTemplateColumns:'1fr 1fr 1fr 1fr'}}>
+    <Box style={{display:'grid',gridTemplateColumns:'1fr 1fr 1fr 1fr'}} mb={'1.5rem'}>
     {newsLetter.map((letter) => (
         <NewsLetter key={letter.id} imgUrl={letter.imgUrl} text={letter.text} />
       ))}
       </Box>
-      </Container>
+      </Container>,
+      <hr/>
+      <BottomContent />,
+      <Footer />
     
     </div>
     )
