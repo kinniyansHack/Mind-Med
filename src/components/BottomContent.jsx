@@ -21,11 +21,11 @@ export default function BottomContent() {
             </Typography>
           </Box>
           <Box gridColumn="span 3">
-            <Typography>CONTACT US</Typography>
+            <Typography variant="h6">CONTACT US</Typography>
             <Typography>
-              Phone numbers: +94 (0)11 2140 000 +94 (0)11 2140 040
+              Phone numbers: <br/> +94 (0)11 2140 000 <br/> +94 (0)11 2140 040
             </Typography>
-            <Typography>E-mail: contactus@durdans.com</Typography>
+            <Typography>E-mail: <br/> contactus@durdans.com</Typography>
           </Box>
           <Box gridColumn="span 3">
             <Typography>Durdans Hospital</Typography>

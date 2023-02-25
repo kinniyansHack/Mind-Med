@@ -7,7 +7,7 @@ import Box from '@mui/material/Box';
 
 function Header() {
   return (
-    <Container>
+    <Container sx={{ display: { xs: 'none', lg: 'block', xl: 'none' } }}>
         <Box style={{ display:"flex", flexWrap:"wrap", justifyContent:"space-between", alignItems:"center"}} space={6} sx={{mt:2}}>
         <img style={{ width:143,  height:104  }} src='https://www.durdans.com/wp-content/uploads/2018/01/logo-transparent.png' alt='Logo'/>
         <div>

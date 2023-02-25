@@ -12,6 +12,7 @@ import NewsLetter from "../components/NewsLetter";
 import BottomContent from "../components/BottomContent";
 import Footer from "../components/Footer";
 
+
 function Landing() {
     return (
     <div>
