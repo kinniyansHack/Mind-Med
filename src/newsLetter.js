@@ -28,16 +28,6 @@ const newsLetter = [
         id : 6,
         imgUrl : "https://www.durdans.com/wp-content/uploads/2022/11/03.png",
         text : "Durdans Chronicles: August"
-    },
-    {
-        id : 7,
-        imgUrl : "https://www.durdans.com/wp-content/uploads/2022/11/04.png",
-        text : "Durdans Chronicles: July"
-    },
-    {
-        id : 8,
-        imgUrl : "https://www.durdans.com/wp-content/uploads/2022/11/05.png",
-        text : "Durdans Chronicles: June"
     }
 ]
 

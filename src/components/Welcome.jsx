@@ -3,7 +3,7 @@ import { Container } from "@mui/system";
 
 function Welcome() {
     return (
-        <Container>
+        <Container sx={{display:{sm:'block'}}}>
         <Typography variant="h4" align="center">Welcome to Mind-Med Hospital</Typography>
         <Typography variant="h6" align="center">Dedicated to you</Typography>
         <Typography variant="h6" align="center" color="green">Compassion, Innovation & Excellence</Typography>

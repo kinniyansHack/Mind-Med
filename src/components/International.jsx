@@ -6,9 +6,9 @@ function International() {
     return (
         <Box style={{backgroundColor:'rgb(244, 244, 244)'}}>
         <Container>
-        <Box style={{display:'flex',gap:'32px'}} sx={{p:'4rem 0rem'}}>
+        <Box style={{display:'flex',gap:'32px'}} sx={{p:'4rem 0rem',flexWrap:{sm:"wrap",md:"nowrap",xs:"wrap"}}}>
         <Box>
-            <img style={{width:'407px',height:'264.125px'}} src='https://www.durdans.com/wp-content/uploads/2022/11/f-s.png' alt='internatinal-img'/>
+            <img style={{width:'100%',height:'auto'}} src='https://www.durdans.com/wp-content/uploads/2022/11/f-s.png' alt='internatinal-img'/>
         </Box>
         <Box>
             <Typography variant='h4' color={'green'} sx={{mb:'1.5rem'}}>International Patient Care</Typography>

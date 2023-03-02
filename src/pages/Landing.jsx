@@ -16,31 +16,31 @@ import Footer from "../components/Footer";
 function Landing() {
     return (
     <div>
-    <Header />,
-    <NavBar />,
-    <HeroSection />,
-    <Welcome />,
-    <International />,
+    <Header />
+    <NavBar />
+    <HeroSection />
+    <Welcome />
+    <International />
     <Typography variant='h4' color={'green'} align='center'>Latest News</Typography>
     <Typography align='center' mb={'1rem'}>Checkout for the latest news from Durdans Hospital</Typography>
     <Container>
-    <Box style={{display:'flex'}}>
+    <Box sx={{display:"flex",flexWrap:{sm:"wrap",xs:"wrap",md:"nowrap"},justifyContent:{sm:"center",xs:"center",md:"center"}}}>
     {newsCard.map((card) => (
         <News key={card.id} imgUrl={card.imgUrl} newsPara={card.newsPara} btnTxt={card.btnTxt} />
       ))}
       </Box>
-      </Container>,
+      </Container>
       <Container>
       <Typography variant="h4" align="center" color={'green'} mt={'1rem'}>Durdans Newsletter</Typography>
       <Typography align="center">Checkout for the latest news from Durdans Hospital</Typography>
-    <Box style={{display:'grid',gridTemplateColumns:'1fr 1fr 1fr 1fr'}} mb={'1.5rem'}>
+    <Box sx={{display:"grid",gridTemplateColumns:{sm:'1fr 1fr',md:'1fr 1fr 1fr'}}} mb={'1.5rem'}>
     {newsLetter.map((letter) => (
         <NewsLetter key={letter.id} imgUrl={letter.imgUrl} text={letter.text} />
       ))}
       </Box>
-      </Container>,
+      </Container>
       <hr/>
-      <BottomContent />,
+      <BottomContent />
       <Footer />
     
     </div>
