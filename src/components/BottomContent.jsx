@@ -8,7 +8,7 @@ export default function BottomContent() {
     <Container>
       <Box sx={{ width: 1 }}>
         <Box display="grid" gridTemplateColumns="repeat(12, 1fr)" gap={2}>
-          <Box gridColumn="span 3">
+          <Box gridColumn={{md:"span 3",sm:"span 12",xs:"span 12"}}>
             <img
               src="https://durdans.mdcreations.work/wp-content/uploads/2022/10/HD.jpg"
               alt=""
@@ -20,14 +20,14 @@ export default function BottomContent() {
               75 years.
             </Typography>
           </Box>
-          <Box gridColumn="span 3">
+          <Box gridColumn={{md:"span 3",sm:"span 12",xs:"span 12"}}>
             <Typography variant="h6">CONTACT US</Typography>
             <Typography>
               Phone numbers: <br/> +94 (0)11 2140 000 <br/> +94 (0)11 2140 040
             </Typography>
             <Typography>E-mail: <br/> contactus@durdans.com</Typography>
           </Box>
-          <Box gridColumn="span 3">
+          <Box gridColumn={{md:"span 3",sm:"span 12",xs:"span 12"}}>
             <Typography>Durdans Hospital</Typography>
             <img style={{height:'40px',width:'40px'}} src="https://durdans.mdcreations.work/wp-content/uploads/2022/10/2.png" alt="" />
             <img style={{height:'40px',width:'40px'}} src="https://durdans.mdcreations.work/wp-content/uploads/2022/10/1.png" alt="" />
@@ -36,7 +36,7 @@ export default function BottomContent() {
             <Typography>Durdans Laboratories</Typography>
             <img style={{height:'40px',width:'40px'}} src="https://durdans.mdcreations.work/wp-content/uploads/2022/10/2.png" alt=""/>
           </Box>
-          <Box gridColumn="span 3">
+          <Box gridColumn={{md:"span 3",sm:"span 12",xs:"span 12"}}>
             <Typography>Enhance by Durdans</Typography>
             <img style={{height:'40px',width:'40px'}} src="https://durdans.mdcreations.work/wp-content/uploads/2022/10/1.png" alt="" />
             <img style={{height:'40px',width:'40px'}} src="https://durdans.mdcreations.work/wp-content/uploads/2022/10/2.png" alt="" />
