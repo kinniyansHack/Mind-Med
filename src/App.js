@@ -1,3 +1,4 @@
+import Careers from "./pages/Careers";
 import Landing from "./pages/Landing";
 
 
@@ -6,6 +7,7 @@ function App() {
     <div className="App">
       {/* <h1>Mind - Med </h1> */}
       <Landing />
+      {/* <Careers /> */}
     </div>
   );
 }

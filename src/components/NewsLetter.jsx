@@ -4,6 +4,7 @@ import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
+import { Container } from '@mui/system';
 
 
 
@@ -13,7 +14,7 @@ function NewsLetter(props) {
     const card = (
         <React.Fragment>
           <CardContent>
-            <img style={{width:'270px',height:'180px'}} src={props.imgUrl} alt=''/>
+            <img style={{width:'270px',height:'180px',textAlign:'center'}} src={props.imgUrl} alt=''/>
           </CardContent>
           <CardActions>
             <Typography align='center'>{props.text}</Typography>
@@ -21,9 +22,11 @@ function NewsLetter(props) {
         </React.Fragment>
       );
   return (
-    <Box sx={{ minWidth: 275}}>
+    <Container>
+    <Box sx={{ minWidth: 275,mb:2}}>
       <Card>{card}</Card>
     </Box>
+    </Container>
   );
 }
 
