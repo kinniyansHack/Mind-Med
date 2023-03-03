@@ -10,7 +10,7 @@ function HeroSection() {
         <Container>
         <Grid container spacing={3} sx={{ flexGrow: 1 }}>
         <Grid  md={6} >
-        <Box sx={{ml:'2rem',mt:'10rem'}}>
+        <Box sx={{ml:'2rem',mt:{md:'10rem',sm:'2rem',xs:'2rem'}}}>
         <Typography variant="h4" sx={{mb:'1.5rem'}} color="green">Experience the best in healthcare at Mind-Med hospital's new Alfred Place Wing</Typography>
         <Typography variant="h6" sx={{mb:'1.5rem'}} color='gray'>Trust in us for all your healthcare needs</Typography>
         <Button variant="contained" color="success" size="large">Book an Appoinment</Button>

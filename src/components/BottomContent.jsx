@@ -14,18 +14,18 @@ export default function BottomContent() {
               alt=""
               style={{ width: "127px",paddingLeft:'25%'}}
             />
-            <Typography>
+            <Typography sx={{fontFamily:"'Nunito', sans-serif"}}>
               Durdans Hospital is a private hospital committed to delivering
               exceptional healthcare across a range of specialties for more than
               75 years.
             </Typography>
           </Box>
           <Box gridColumn={{md:"span 3",sm:"span 12",xs:"span 12"}}>
-            <Typography variant="h6">CONTACT US</Typography>
-            <Typography>
-              Phone numbers: <br/> +94 (0)11 2140 000 <br/> +94 (0)11 2140 040
+            <Typography sx={{fontFamily:"'Nunito', sans-serif",fontWeight:"700"}}>CONTACT US</Typography>
+            <Typography sx={{fontFamily:"'Nunito', sans-serif"}}>
+              <span style={{fontWeight:'bold'}}>Phone numbers:</span> <br/> +94 (0)11 2140 000 <br/> +94 (0)11 2140 040
             </Typography>
-            <Typography>E-mail: <br/> contactus@durdans.com</Typography>
+            <Typography sx={{fontFamily:"'Nunito', sans-serif"}}><span style={{fontWeight:'bold'}}>E-mail:</span> <br/> contactus@durdans.com</Typography>
           </Box>
           <Box gridColumn={{md:"span 3",sm:"span 12",xs:"span 12"}}>
             <Typography>Durdans Hospital</Typography>
