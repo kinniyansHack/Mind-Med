@@ -1,3 +1,5 @@
+import { color } from "@mui/system";
+
 const careerCard = [
     {
         id:1,
@@ -8,7 +10,7 @@ const careerCard = [
     {
         id:2,
         title:"Our Employees Say",
-        content:"A homely environment. A ground for personal development. A nurturing presence. Find out what our employees have to say about being a part of the Durdans family.",
+        content:"A homely environment. A ground for personal development. A nurturing presence. Find out what our employees have to say about being a part of the Durdans family to say about being a part of the Durdans.",
         btnTxt:"Click Here"
     },
     {
